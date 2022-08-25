@@ -1,0 +1,89 @@
+@charset "UTF-8"
+
+
+
+*{
+    height: 50%;
+}
+
+
+
+body{
+    background-color: #C2C1F5;
+    margin: 0%;
+    font-family: Playfair Display, Arial, Helvetica, sans-serif;
+}
+
+header#inicio{
+    height: 100px;
+    margin: 0%;
+    padding: 20px 40px 46px 40px;
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, #A4B2DE, #B9DBFA);
+}
+
+header > h1{
+    text-align: center;
+}
+
+header > article > p{
+    text-align: center;
+}
+
+header > nav#rodape > a{
+    color: black;
+    text-align: left;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+header > nav#rodape > a:hover{
+    color: white;
+}
+
+main{
+    background-color: white;
+    padding: 2px;
+    text-align: justify; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p#images{ 
+    text-align: center;
+}
+picture#feras{
+    text-align: center;
+}
+iframe{
+    padding: 43px 110px 43px 110px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    background-color: #A4B2DE;
+    border-end-start-radius: 10px ;
+    border-end-end-radius: 10px;
+}
+
+main#final{
+    padding-top: 5px;
+    background-color: #E5CDFD;
+    border-radius: 10px;
+}
+
+footer{
+    font-size: 16px;
+    background-color: #ddb8e3;
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 1px;
+}
+
+p#final{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+    text-align: justify;
+    margin-top: 0px; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
