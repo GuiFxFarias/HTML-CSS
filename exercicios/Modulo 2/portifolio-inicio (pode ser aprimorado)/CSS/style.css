@@ -23,14 +23,16 @@ body{
     --fontpadrao: 'Cairo', arial, verdana, sans-serif;
 }
 
-header > a{
+nav a{
+    border-radius: 5px;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.292);
     color: white;
     text-decoration: none;
 }
 
 header a:hover{
     text-decoration: underline;
-    color: white;
 }
 
 header{
@@ -56,6 +58,7 @@ nav{
     font-family: var(--fontpadrao);
     border-radius: 6px;
     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.586);
+    margin-bottom: 20px;
 }
 
 nav h2{
@@ -68,6 +71,7 @@ nav h2{
 }
 
 nav p{
+    margin: 5px;
     text-indent: 5px;
 }
 
@@ -100,6 +104,8 @@ img{
 }
 
 a{
+    border-radius: 5px;
+    color: black;
     text-decoration: none;
     background-color: #e6702771;
     padding: 2px;
