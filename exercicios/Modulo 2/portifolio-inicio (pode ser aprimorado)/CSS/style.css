@@ -23,6 +23,16 @@ body{
     --fontpadrao: 'Cairo', arial, verdana, sans-serif;
 }
 
+header > a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 header{
     margin: -8px;
     background-color: #45fcff8d;
