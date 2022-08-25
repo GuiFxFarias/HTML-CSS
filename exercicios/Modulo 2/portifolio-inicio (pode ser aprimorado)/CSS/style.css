@@ -24,8 +24,8 @@ body{
 }
 
 header > a{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 header a:hover{
