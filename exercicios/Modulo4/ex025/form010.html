@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de formulários</h1>
+    <form action="cadastro.php" method="post">
+       
+        <p>
+            <label for="iano">Em que ano voce nasceu: </label>
+            <input type="number" name="ano" id="iano" min="1900" max="2022" oninput="calcidade()">
+        </p>
+
+        <p>
+            <label for="iidade">Sua idade é</label>
+            <output id="iidade">00</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <script>
+        function calcidade(){
+            let atual = new Date().getFullYear()
+            let nasc = document.getElementById('iano').value
+            let idade = document.getElementById('iidade')
+
+            idade.innerHTML = Number(atual) - Number(nasc)            
+        }
+    </script>
+</body>
+</html>
